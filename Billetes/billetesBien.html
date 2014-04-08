@@ -1,35 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
-<head>
-  <meta content="text/html; charset=UTF-8" http-equiv="content-type" />
-  <title>Test Suite</title>
+<head profile="http://selenium-ide.openqa.org/profiles/test-case">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="selenium.base" href="http://www.renfe.com/" />
+<title>billetes6</title>
 </head>
 <body>
-<table id="suiteTable" cellpadding="1" cellspacing="1" border="1" class="selenium"><tbody>
-<tr><td><b>Test Suite</b></td></tr>
-<tr><td><a href="../Atencion al cliente/atencion al cliente bien.html">atencion al cliente bien</a></td></tr>
-<tr><td><a href="../Atencion al cliente/atencion al cliente DNI.html">atencion al cliente DNI</a></td></tr>
-<tr><td><a href="../Atencion al cliente/atencion al cliente mal formato.html">atencion al cliente mal formato</a></td></tr>
-<tr><td><a href="../Atencion al cliente/atencion al cliente sin comentarios.html">atencion al cliente sin comentarios</a></td></tr>
-<tr><td><a href="billetesInventados.html">billetesInventados</a></td></tr>
-<tr><td><a href="billetes3.html">billetesFechasAlReves</a></td></tr>
-<tr><td><a href="billetesSinViajeros.html">billetesSinViajeros</a></td></tr>
-<tr><td><a href="billetesPasados.html">billetesPasados</a></td></tr>
-<tr><td><a href="billetes6.html">billetesBien</a></td></tr>
-<tr><td><a href="../Idiomas/idioma1.html">idioma1</a></td></tr>
-<tr><td><a href="../Idiomas/idioma2.html">idioma2</a></td></tr>
-<tr><td><a href="../Idiomas/idioma3.html">idioma3</a></td></tr>
-<tr><td><a href="../Login/loginMal.html">loginMal</a></td></tr>
-<tr><td><a href="../Login/loginBien.html">loginBien</a></td></tr>
-<tr><td><a href="../Login/logout.html">logout</a></td></tr>
-<tr><td><a href="../Redirecciones/RedireccionBien.html">RedireccionBien</a></td></tr>
-<tr><td><a href="../Redirecciones/RedireccionMal.html">RedireccionMal</a></td></tr>
-<tr><td><a href="../Registro/registro1.html">registro1</a></td></tr>
-<tr><td><a href="../Registro/registro2.html">registro2</a></td></tr>
-<tr><td><a href="../Registro/registro3.html">registro3</a></td></tr>
-<tr><td><a href="../Registro/registro4.html">registro4</a></td></tr>
-<tr><td><a href="../Registro/registro5.html">registro5</a></td></tr>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">billetes6</td></tr>
+</thead><tbody>
+<tr>
+	<td>open</td>
+	<td>/index.html</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=IdOrigen</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=IdOrigen</td>
+	<td>Madrid (*)</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=IdDestino</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=IdDestino</td>
+	<td>Zaragoza (*)</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=FechaIdaSel</td>
+	<td>11/04/2014</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=FechaVueltaSel</td>
+	<td>13/04/2014</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=input.btn_buscar</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>id=idPasos_0</td>
+	<td></td>
+</tr>
 </tbody></table>
 </body>
 </html>

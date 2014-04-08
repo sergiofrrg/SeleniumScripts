@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+  <meta content="text/html; charset=UTF-8" http-equiv="content-type" />
+  <title>Test Suite</title>
+</head>
+<body>
+<table id="suiteTable" cellpadding="1" cellspacing="1" border="1" class="selenium"><tbody>
+<tr><td><b>Test Suite</b></td></tr>
+<tr><td><a href="../Atencion al cliente/atencion al cliente bien.html">atencion al cliente bien</a></td></tr>
+<tr><td><a href="../Atencion al cliente/atencion al cliente DNI.html">atencion al cliente DNI</a></td></tr>
+<tr><td><a href="../Atencion al cliente/atencion al cliente mal formato.html">atencion al cliente mal formato</a></td></tr>
+<tr><td><a href="../Atencion al cliente/atencion al cliente sin comentarios.html">atencion al cliente sin comentarios</a></td></tr>
+<tr><td><a href="../Billetes/billetesFechasAlReves.html">billetesFechasAlReves</a></td></tr>
+<tr><td><a href="../Billetes/billetesInventados.html">billetesInventados</a></td></tr>
+<tr><td><a href="../Billetes/billetesPasados.html">billetesPasados</a></td></tr>
+<tr><td><a href="../Billetes/billetesSinViajeros.html">billetesSinViajeros</a></td></tr>
+<tr><td><a href="../Billetes/billetesBien.html">billetesBien</a></td></tr>
+<tr><td><a href="../Idiomas/idioma1.html">idioma1</a></td></tr>
+<tr><td><a href="../Idiomas/idioma2.html">idioma2</a></td></tr>
+<tr><td><a href="../Idiomas/idioma3.html">idioma3</a></td></tr>
+<tr><td><a href="../Login/loginMal.html">loginMal</a></td></tr>
+<tr><td><a href="../Login/loginBien.html">loginBien</a></td></tr>
+<tr><td><a href="../Login/logout.html">logout</a></td></tr>
+<tr><td><a href="../Redirecciones/RedireccionBien.html">RedireccionBien</a></td></tr>
+<tr><td><a href="../Redirecciones/RedireccionMal.html">RedireccionMal</a></td></tr>
+<tr><td><a href="../Registro/registroContraseñaNoValida.html">registroContraseñaNoValida</a></td></tr>
+<tr><td><a href="../Registro/registroMalaFecha.html">registroMalaFecha</a></td></tr>
+<tr><td><a href="../Registro/registroMalCP.html">registroMalCP</a></td></tr>
+<tr><td><a href="../Registro/registroNombreIncorrecto.html">registroNombreIncorrecto</a></td></tr>
+<tr><td><a href="../Registro/registroYaRegistrado.html">registroYaRegistrado</a></td></tr>
+</tbody></table>
+</body>
+</html>
